@@ -1,4 +1,7 @@
-# chat_client.py
+# This file contains the code for a client.
+# It lets you connect to any server socket reachable over your network.
+# This code is licenced under open source.
+
 import sys, socket, select
 
 print("Please enter a user name: ")
