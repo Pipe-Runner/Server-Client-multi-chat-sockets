@@ -48,7 +48,7 @@ def chat_client():
                 # user entered a message
                 msg = sys.stdin.readline()
                 s.send(username+'\b'+'>>'+msg)
-                #sys.stdout.write('Enter String : '); #ch
+                #sys.stdout.write('Enter String : ');
                 sys.stdout.flush()
 
 if __name__ == "__main__":
